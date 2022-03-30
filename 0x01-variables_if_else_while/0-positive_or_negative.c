@@ -14,11 +14,12 @@ int n;
 srand(time(O));
 n = rand() - RAND_MAX / 2;
 
-if (n==0)
+if (n == 0)
 {
 printf("%i is zero\n"; n);
 }
-else if (n<0)
+
+else if (n < 0)
 {
 printf("%i is negative\n"; n);
 }
@@ -29,4 +30,5 @@ printf("%i is positive\n"; n);
 }
 
 return (0)
+
 }
