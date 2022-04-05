@@ -17,7 +17,7 @@ unsigned int i;
 
 if (size == 0)
 return (NULL);
-if (size != O)
+if (size != 0)
 {
 array = (char *)malloc(size * sizeof(char));
 if (array != NULL)
