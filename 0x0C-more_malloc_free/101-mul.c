@@ -60,7 +60,7 @@ len_r2--;
 }
 /**
  * is_digit - checks for digits
- * @c: Two very big numbers
+ * @c: input character to check for digit
  * Return: 0 failure, 1 success
  */
 int is_digit(char c)
